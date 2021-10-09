@@ -1,24 +1,64 @@
 {
   "shifts": [
     {
-      "name": {
+      "staff": {
         "name": "Fawzy",
         "role": "Admin"
       },
-      "startTime": "2021-10-08 08:00",
-      "endTime": "2021-10-09 00:00",
-      "workingHours": "16:00:00",
+      "startTime": "2021-10-09 08:00",
+      "endTime": "2021-10-10 00:00",
+      "workingHours": "16:00",
       "id": 1
     },
     {
-      "name": {
+      "staff": {
+        "name": "Aziz",
+        "role": "Admin"
+      },
+      "startTime": "2021-10-09 08:00",
+      "endTime": "2021-10-09 16:00",
+      "workingHours": "08:00",
+      "id": 2
+    },
+    {
+      "staff": {
+        "name": "Mahmoud",
+        "role": "Admin"
+      },
+      "startTime": "2021-10-09 12:00",
+      "endTime": "2021-10-10 00:00",
+      "workingHours": "12:00",
+      "id": 3
+    },
+    {
+      "staff": {
         "name": "Salem",
         "role": "Admin"
       },
-      "startTime": "2021-10-08 16:00",
-      "endTime": "2021-10-09 00:00",
-      "workingHours": "08:00:00",
-      "id": 2
+      "startTime": "2021-10-09 16:00",
+      "endTime": "2021-10-10 00:00",
+      "workingHours": "08:00",
+      "id": 4
+    },
+    {
+      "staff": {
+        "name": "Haidy",
+        "role": "Nurse"
+      },
+      "startTime": "2021-10-09 08:00",
+      "endTime": "2021-10-10 16:00",
+      "workingHours": "08:00",
+      "id": 5
+    },
+    {
+      "staff": {
+        "name": "Dina",
+        "role": "Nurse"
+      },
+      "startTime": "2021-10-09 16:00",
+      "endTime": "2021-10-10 00:00",
+      "workingHours": "08:00",
+      "id": 6
     }
   ],
   "transactions": []

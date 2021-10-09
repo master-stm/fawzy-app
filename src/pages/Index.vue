@@ -58,7 +58,7 @@ export default defineComponent({
           role: "Nurse",
         },
         {
-          name: "Haydi",
+          name: "Haidy",
           role: "Nurse",
         },
       ],
@@ -75,14 +75,14 @@ export default defineComponent({
             moment(startTime, "YYYY/MM/DD HH:mm")
           )
         )
-        .format("HH:mm:ss");
+        .format("HH:mm");
       fetch("http://localhost:3000/shifts", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: this.name,
+          staff: this.name,
           startTime,
           endTime,
           workingHours,
